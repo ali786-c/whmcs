@@ -1,0 +1,17 @@
+{
+  "name": "whmcs-whatsapp-bridge",
+  "version": "1.0.0",
+  "description": "WhatsApp Bridge for WHMCS using Baileys",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "qrcode": "^1.5.3",
+    "pino": "^8.16.1",
+    "node-cache": "^5.1.2"
+  }
+}
